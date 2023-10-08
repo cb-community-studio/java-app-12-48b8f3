@@ -1,0 +1,82 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName javaapp12
+    blueprints []
+    buildTool maven
+    cacheProvider redis
+    clientFramework react
+    clientPackageManager npm
+    clientTheme yeti
+    creationTimestamp 1696759279458
+    databaseType sql
+    devDatabaseType mysql
+    dtoSuffix DTO
+    enableGradleEnterprise false
+    enableHibernateCache true
+    enableSwaggerCodegen false
+    enableTranslation true
+    jhiPrefix jhi
+    languages [en]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    otherModules []
+    packageName my.codebridge.community.javaapp12
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  entities Employee
+}
+
+entity Employee {
+  first String
+  name String
+  last String
+  name1 String
+  employee String
+  dateOfBirth String
+  gender String
+  phone String
+  email String
+  address String
+  employment String
+  status String
+  hire String
+  date String
+  termination String
+  date1 String
+  job String
+  title String
+  department String
+  managerSupervisor String
+  salary String
+  information String
+  benefits String
+  information1 String
+  emergency String
+  contact String
+  details String
+  work String
+  location String
+  work1 String
+  schedule String
+  UserId String
+}
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
